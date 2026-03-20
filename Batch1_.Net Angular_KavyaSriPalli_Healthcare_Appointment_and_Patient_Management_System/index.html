@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Management System</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Healthcare Management System</a>
+
+    <div>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="patients.html">Patients</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="doctors.html">Doctors</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="appointments.html">Appointments</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid mt-4">
+    <div class="row">
+
+        <!-- Sidebar -->
+        <div class="col-md-2 sidebar">
+
+            <h5 class="sidebar-title">Dashboard</h5>
+
+            <a href="index.html" class="sidebar-link">
+                <i class="bi bi-house-door"></i> Home
+            </a>
+
+            <a href="patients.html" class="sidebar-link">
+                <i class="bi bi-people"></i> Patients
+            </a>
+
+            <a href="doctors.html" class="sidebar-link">
+                <i class="bi bi-person-badge"></i> Doctors
+            </a>
+
+            <a href="appointments.html" class="sidebar-link">
+                <i class="bi bi-calendar-check"></i> Appointments
+            </a>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-10">
+
+          <div class="welcome-banner">
+
+            <div class="welcome-text">
+                <h2>Welcome to Healthcare Management System</h2>
+                <p>
+                    Manage patients, doctors and appointments efficiently with our 
+                    integrated clinic management dashboard.
+                </p>
+            </div>
+
+          </div>
+
+          <h3 class="dashboard-title">Healthcare Dashboard</h3>
+
+          <div class="row mt-4">
+
+            <div class="col-md-3">
+              <a href="patients.html" class="dashboard-link">
+                <div class="dashboard-card patients-card">
+                    <i class="bi bi-people-fill dashboard-icon"></i>
+                    <h5>Total Patients</h5>
+                    <h2 id="totalPatients">0</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="doctors.html" class="dashboard-link">
+                <div class="dashboard-card doctors-card">
+                    <i class="bi bi-person-badge-fill dashboard-icon"></i>
+                    <h5>Total Doctors</h5>
+                    <h2 id="totalDoctors">0</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="appointments.html" class="dashboard-link">
+                <div class="dashboard-card appointments-card">
+                    <i class="bi bi-calendar-check-fill dashboard-icon"></i>
+                    <h5>Total Appointments</h5>
+                    <h2 id="totalAppointments">0</h2>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-3">
+                <div class="dashboard-card today-card">
+                    <i class="bi bi-calendar-day dashboard-icon"></i>
+                    <h5>Today's Appts</h5>
+                    <h2 id="todayAppointments">0</h2>
+                </div>
+            </div>
+          </div>
+
+          <div class="chart-card">
+
+              <h4 class="mb-3">Appointments Per Doctor</h4>
+
+              <canvas id="appointmentsChart" height="120"></canvas>
+
+          </div>
+
+          <div class="chart-card">
+
+              <h4 class="mb-3">Appointment Status Distribution</h4>
+
+              <div class="chart-container">
+                <canvas id="statusChart"></canvas>
+              </div>
+
+          </div>
+
+          <div class="chart-card">
+
+              <h4 class="mb-3">Upcoming Appointments Today</h4>
+
+              <ul id="todaySchedule" class="list-group"></ul>
+
+          </div>
+
+          <div class="mt-5">
+
+            <h4>Recent Appointments</h4>
+
+            <table class="table mt-3">
+              <thead>
+                  <tr>
+                      <th>Patient</th>
+                      <th>Doctor</th>
+                      <th>Date</th>
+                      <th>Time</th>
+                  </tr>
+              </thead>
+              <tbody id="recentAppointments"></tbody>
+            </table>
+
+          </div>
+
+          <div class="mt-4 text-center">
+
+            <a href="patients.html?add=true" class="btn btn-primary btn-lg m-2">
+              Add Patient
+            </a>
+
+            <a href="doctors.html?add=true" class="btn btn-success btn-lg m-2">
+              Add Doctor
+            </a>
+
+            <a href="appointments.html?add=true" class="btn btn-danger btn-lg m-2">
+              Book Appointment
+            </a>
+
+          </div>
+
+        </div>
+    </div>
+</div>
+
+<footer class="text-center mt-5 mb-3">
+    <small>Healthcare Management System &copy; 2026</small>
+</footer>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Custom JS -->
+<script src="js/index.js"></script>
+
+<!-- Common JS -->
+<script src="js/common.js"></script>
+
+</body>
+</html>
