@@ -88,11 +88,36 @@ This project demonstrates how clinic workflows can be simulated using frontend t
 <img width="1366" height="768" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/65d281b5-5f27-48c1-ad54-bdd9754d8dbf" />
 
 * Edit existing appointments
+
+<img width="1366" height="768" alt="Screenshot (121)" src="https://github.com/user-attachments/assets/cf76063e-b1dc-4f2a-bc4a-09855d209a93" />
+
+<img width="1366" height="768" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/b38a7d33-84c0-4257-b00c-69a38fb6f9c1" />
+
+<img width="1366" height="768" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/4152725f-c6e2-40da-9b2f-6d534313cf9a" />
+
 * Delete appointments
+
+<img width="1366" height="768" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/f74226e3-0dde-4eb5-9f6c-dd74333f1673" />
+
+<img width="1366" height="768" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/931dd6b3-d817-4389-b557-b0c3619c114c" />
+
 * Filter appointments by **status**
+
+<img width="1366" height="768" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/674f242d-f432-4755-be1d-1c347c78cbfa" />
+
 * Search appointments by **patient, doctor, or date**
+
+<img width="1366" height="768" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/92922862-bd77-495b-b208-428cc19ac320" />
+
 * Automatic time slot generation based on doctor availability
+
+<img width="1366" height="768" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/7e3c8b0b-c2c8-4e8e-b1b8-e2463db32cf8" />
+
+<img width="1366" height="768" alt="Screenshot (137)" src="https://github.com/user-attachments/assets/f2720c26-4612-4c48-8062-67abf1250aa1" />
+
 * Status tracking (Booked, Completed, Cancelled)
+
+<img width="1366" height="768" alt="Screenshot (133)" src="https://github.com/user-attachments/assets/50d8ef35-620a-4fac-8c74-5cf04065fcf9" />
 
 ### Appointment Validations
 
@@ -100,9 +125,17 @@ The system implements several real-world scheduling rules:
 
 * Prevents **double booking for the same doctor**
 * Prevents **patients from booking two appointments at the same time**
+
+<img width="1366" height="768" alt="Screenshot (134)" src="https://github.com/user-attachments/assets/6d8696d8-8c15-42ec-a187-5221484137d3" />
+
 * Ensures appointment time falls within **doctor working hours**
 * Prevents booking appointments for **past dates**
+
+<img width="1366" height="768" alt="Screenshot (135)" src="https://github.com/user-attachments/assets/4d7103a6-6fa3-471b-88b1-dddf2d0b6348" />
+
 * Automatically updates appointment status to **Completed** when the time passes
+
+<img width="1366" height="768" alt="Screenshot (136)" src="https://github.com/user-attachments/assets/e7cf2268-10f0-4544-88fd-8d5252a7298c" />
 
 ---
 
@@ -117,18 +150,33 @@ The application includes an interactive dashboard providing an overview of the c
 * Total Appointments
 * Today's Appointments
 
+<img width="1366" height="768" alt="Screenshot (142)" src="https://github.com/user-attachments/assets/490603f9-832c-4ed3-a448-1f17b7a4ea84" />
+
 ### Analytics Charts
 
 Implemented using **Chart.js**
 
 * **Appointments Per Doctor**
+
+<img width="1366" height="768" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/f6b7a407-374e-4eb9-b27d-3b39039cc946" />
+
 * **Appointment Status Distribution**
+
+<img width="1366" height="768" alt="Screenshot (144)" src="https://github.com/user-attachments/assets/7a6c2d8d-d8f3-4536-9041-f69f5e80229c" />
 
 ### Additional Dashboard Information
 
 * Upcoming appointments for the current day
+
+<img width="1366" height="768" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/de2c3c60-fede-4f1a-a5ad-b2f73803977d" />
+
 * Recently scheduled appointments
+
+<img width="1366" height="768" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/f53dfc09-4201-4b0c-bd0e-805969746088" />
+
 * Quick navigation buttons for adding patients, doctors, and appointments
+
+<img width="1366" height="768" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/6c71821e-0678-45c8-8da6-0273a333b61c" />
 
 ---
 
