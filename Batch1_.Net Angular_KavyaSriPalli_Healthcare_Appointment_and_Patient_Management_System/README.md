@@ -15,12 +15,36 @@ This project demonstrates how clinic workflows can be simulated using frontend t
 ### Patient Management
 
 * Add new patient records
-* Edit existing patient details
-* Delete patient records
-* Search patients by **name or phone number**
-* Form validation for required fields
-* Auto-generated Patient ID
 * Medical notes support
+  
+<img width="1366" height="768" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/58b991e8-20a4-4762-a73a-fd366aec79a4" />
+
+<img width="1366" height="768" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/2d29b4cb-497e-41ea-a7b7-f4552ddc59f6" />
+
+* Edit existing patient details
+
+<img width="1366" height="768" alt="Screenshot (101)" src="https://github.com/user-attachments/assets/402afd6b-2774-426a-8945-c5fac5d72e30" />
+
+<img width="1366" height="768" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/7d4e07fb-f2cd-4e92-b657-745cd1273d32" />
+
+* Delete patient records
+
+<img width="1366" height="768" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/a65b2829-00c2-46da-8cb6-f42c7da866c7" />
+
+<img width="1366" height="768" alt="Screenshot (104)" src="https://github.com/user-attachments/assets/54b0cad9-bed4-4a78-9484-d34fa217f9bb" />
+
+* Search patients by **name or phone number**
+
+<img width="1366" height="768" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/da000216-ed59-4c55-b7aa-c2e45b058687" />
+
+* Form validation for required fields
+
+<img width="1366" height="768" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/b396a350-f726-41d3-83eb-13e725cbf1e6" />
+
+* Auto-generated Patient ID
+
+<img width="1366" height="768" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/1eaa2392-165a-4e4c-ab64-0f855d95ae78" />
+
 
 ### Doctor Management
 
