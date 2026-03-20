@@ -1,21 +1,10 @@
 # 🏥 Healthcare Appointment & Patient Management System
 
-A frontend-based clinic management web application that helps healthcare administrators manage **patients, doctors, and appointments efficiently**.
+## Project Overview
 
-The system replaces manual register-based management with a structured digital interface and prevents appointment conflicts through built-in validation rules.
+The **Healthcare Appointment & Patient Management System** is a frontend-based web application designed to help small healthcare clinics manage patients, doctors, and appointments efficiently.
 
----
-
-## 🚀 Tech Stack
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
-
----
+The system replaces traditional manual register-based management with a structured digital interface. It allows clinic administrators to maintain patient records, manage doctor availability, and schedule appointments while preventing conflicts and duplicate bookings.
 
 This project demonstrates how clinic workflows can be simulated using frontend technologies without a backend server by utilizing **LocalStorage** for data persistence.
 
