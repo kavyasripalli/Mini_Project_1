@@ -49,16 +49,44 @@ This project demonstrates how clinic workflows can be simulated using frontend t
 ### Doctor Management
 
 * Add new doctors
+
+<img width="1366" height="768" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/f4110157-5f8c-4601-ae08-ec2cee869ed2" />
+
+<img width="1366" height="768" alt="Screenshot (111)" src="https://github.com/user-attachments/assets/d3b2a76c-508d-4e86-8bec-e1907254f7b2" />
+
 * Edit doctor information
+
+<img width="1366" height="768" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/e8907100-1328-4ab7-b0b8-579ccbbe5ce6" />
+
+<img width="1366" height="768" alt="Screenshot (113)" src="https://github.com/user-attachments/assets/d3383006-2810-479c-962e-5bd8a29da852" />
+
 * Delete doctors
+
+<img width="1366" height="768" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/fb31d429-f45e-4aad-92fc-6921a38dd6a7" />
+
+<img width="1366" height="768" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/3815fc86-9992-4860-92a0-7973ec020037" />
+
 * Search doctors by **name or specialization**
+
+<img width="1366" height="768" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/e6a131c5-06bd-4750-9c9b-71440b69093f" />
+
 * Doctor availability scheduling
 * Prevent deleting doctors with existing appointments
+
+<img width="1366" height="768" alt="Screenshot (119)" src="https://github.com/user-attachments/assets/ccbdfc5f-1e94-4c16-bec2-6e9764d272a2" />
+
 * Auto-generated Doctor ID
+
+<img width="1366" height="768" alt="Screenshot (120)" src="https://github.com/user-attachments/assets/b437d092-051d-4774-94bf-33bccc050f38" />
 
 ### Appointment Management
 
 * Book new appointments
+
+<img width="1366" height="768" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/df3ee54a-05c2-476b-8c95-103ef7206f1f" />
+
+<img width="1366" height="768" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/65d281b5-5f27-48c1-ad54-bdd9754d8dbf" />
+
 * Edit existing appointments
 * Delete appointments
 * Filter appointments by **status**
